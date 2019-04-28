@@ -76,8 +76,7 @@ body {
     padding-left: 10px;
     margin-left: 10px;
     line-height: 18px;
-    color: rgb(48, 47, 47);
-    text-decoration: none;
+    color: black;
     border-left: 1px solid #efefef;
   }
   
@@ -97,37 +96,6 @@ body {
     border: 1px solid #dddddd;
   }
   
-  /* contact page */
-  
-  label,
-  input[type=text],
-  input[type=email],
-  textarea {
-    display: block;
-    width: 100%;
-  }
-  
-  input[type=text],
-  input[type=email],
-  textarea {
-    height: 35px;
-    padding: 0 10px;
-    font-size: 14px;
-    border: 1px solid #dddddd;
-  }
-  
-  textarea {
-    height: 90px;
-  }
-  
-  input[type=submit] {
-    padding: 10px 30px;
-    font-size: 18px;
-    color: #ffffff;
-    cursor: pointer;
-    background: #2b157a;
-    border: 0 none;
-  }
 
   .footer {
     font-size: 18px;
