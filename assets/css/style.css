@@ -84,6 +84,11 @@ body {
     border-left: 10px;
   }
   
+  .image {
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 10px;
+  }
   /* main */
   
   .main-section {
