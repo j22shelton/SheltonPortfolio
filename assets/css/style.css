@@ -3,30 +3,33 @@
     position: fixed;
     z-index: 99;
     width: 100%;
-    margin: 0 0 30px;
+    margin: 0 0 0px;
     overflow: auto;
     color: #504c4c;
     background: #2b157a;
     border-bottom: 2px solid #070606;
+    height: 150px;
   }
   
   #logo {
     float: left;
     width: 250px;
-    height: 90px;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 30px;
+    height: 150px;
+    font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
+    font-size: 40px;
     font-weight: 700;
-    line-height: 90px;
+    line-height: 60px;
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-    background: rgb(48, 47, 47);
+    /* background: rgb(48, 47, 47); */
   }
   
   nav {
     float: right;
-    margin-top: 25px;
+    margin-top: 5px;
+    font-size: 17px;
+    border: 4px solid black;
   }
   
   nav a {
@@ -41,7 +44,7 @@
   nav a:first-child {
     border-left: 10px;
   }
-  
+ 
   .borderImg {
     border: 5px solid black;
     width: 350px;
@@ -49,11 +52,13 @@
     max-width: 100%;
     border-radius: 10px;
   }
-  
-  .container {
+
+
+  .bodycontainer {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
+    margin-top: 125px;
     clear: both;
   }
     
@@ -62,10 +67,6 @@
     font-size: 22px;
     color: #bcb0e9;
     text-shadow: 2px 2px #070606;
-  }
-  
-  .wrapper h2 {
-    color: #bcb0e9;
   }
   
   body {
