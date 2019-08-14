@@ -8,20 +8,22 @@
     color: #504c4c;
     background: #2b157a;
     border-bottom: 2px solid #070606;
-    height: 150px;
+    height: 100px;
+    
   }
   
   #logo {
     float: left;
     width: 250px;
-    height: 150px;
+    height: 100px;
     font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
     font-size: 40px;
     font-weight: 700;
     line-height: 60px;
     color: #ffffff;
     text-align: center;
-    text-decoration: none;
+    font-size: 33px;
+    padding-left: 14px;
     /* background: rgb(48, 47, 47); */
   }
   
@@ -97,7 +99,10 @@
     border-radius: 10px;
   }
 
+  #container {
+    height: 500px;
 
+  }
   .bodycontainer {
     width: 100%;
     max-width: 960px;
@@ -105,14 +110,23 @@
     margin-top: 125px;
     clear: both;
   }
+
+  .table {
+    padding-top: 99px;
+  }
     
   h2,
   h3 {
     font-size: 22px;
-    color: #bcb0e9;
+    color: #ebe9f0;
     text-shadow: 2px 2px #070606;
   }
-  
+
+  h5,
+  h6 {
+    width: 530px;
+    color: rgb(22, 22, 22);
+  }
   body {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 18px;
