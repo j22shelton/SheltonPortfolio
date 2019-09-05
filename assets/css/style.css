@@ -100,8 +100,8 @@
 
   .borderImg {
     border: 5px solid black;
-    width: 350px;
-    height: 250px;
+    /* width: 350px;
+    height: 250px; */
     max-width: 100%;
     border-radius: 10px;
   }
