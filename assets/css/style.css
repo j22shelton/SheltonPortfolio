@@ -48,22 +48,6 @@ nav a {
   border-left: 1px solid #efefef;
 }
 
-/* .navbar-collapse {
-  min-width: fit-content;
-  align-self: flex-end;
-}
-
-.dropdown-menu li {
-  min-width: fit-content;
-} */
-
-/* nav-item active {
-  width: 100%;
-}
-
-a {
-  width:50px;
-} */
 /********Style for social media icons*********/
 
 .icon-bar {
@@ -113,21 +97,18 @@ color: white;
   border: 5px solid black;
   width: 350px;
   height: 250px;
-  /* max-width: 100%;
-  height: auto; */
   border-radius: 10px;
 }
 
 .table {
-  padding-top: 99px;
-  padding-bottom: 55px;
+  padding: 96px 75px 50px 75px;
   margin-left: 30px;
-  background: rgba(255, 255, 255, 0.20);
+  background: rgba(255, 255, 255, 0.25);
   max-width: 100%;
   height: auto;
-  
-  
+  border: outset;
 }
+
 h1 {
   text-align: center;
   color: #ebe9f0;
@@ -176,7 +157,7 @@ body {
 }
 
 .block {
-  background: rgba(255, 255, 255, 0.50);
+  background: rgba(255, 255, 255, 0.40);
   margin-top: 33px;
   margin-left: 150px;
   padding: 35px;
@@ -185,10 +166,10 @@ body {
   display: block;
 }
 
- /**********Style for "Skills" page*********/
+ /**********Style for "Skills" section*********/
 
 .skills-icon {
-  margin: 0px 25px 75px 25px;
+  margin: 0px 25px 75px 75px;
 }
 
 .zoom {
