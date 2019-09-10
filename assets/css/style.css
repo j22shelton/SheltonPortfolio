@@ -1,6 +1,6 @@
- /***********Header style*********/
+/***********Header style*********/
 
- #masthead {
+#masthead {
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -112,7 +112,7 @@ color: white;
 h1 {
   text-align: center;
   color: #ebe9f0;
-  text-shadow: 2px 2px #070606;
+  text-shadow: 5px 5px #070606;
   padding-top: 125px;
 }
 
