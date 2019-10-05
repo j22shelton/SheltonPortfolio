@@ -2,93 +2,160 @@
 <html lang="en-us">
 
 <head>
-      <meta charset="UTF-8">
-      <title>Portfolio | Jocelyn Shelton</title>
-      <meta name="viewport"  content="width-device-width, initial-scale-1">
-      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <meta charset="UTF-8">
+          <title>About | Jocelyn Shelton</title>
+          <meta name="viewport"  content="width-device-width, initial-scale-1">
+          <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
-<body>
+          
+<body>        
    <header id="masthead">
 
-      <div id="headercontainer">
-          <div id="logo">Jocelyn Shelton
-      </div>
+    <div id="headercontainer">
+      <div id="logo">Jocelyn Shelton
+    </div>
+       
+     <!-- hamburger menu navbar section -->   
 
-        <!-- hamburger menu navbar section -->   
-
-       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                              
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
                             
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav flex-nowrap">
-                    <li class="nav-item">
-                          <a href="About.html">About Me    |</a>
-                    </li>
-                    <li class="nav-item">
-                          <a href="assets/images/CodingResumeTech2019.pdf"target="_blank">Resume    |</a>
-                    </li>
-                     <!--Skills Section is an in-page link-->
-                    <li class="nav-item">
-                        <a href="#Skills">Skills</a>
-                    </li>
-                </ul>
-              </div>
-        </nav>
-
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                      <a href="About.html">About Me    |</a>
+                  </li>
+                  <li class="nav-item">
+                        <a href="assets/images/CodingResumeTech2019.pdf" target="_blank">Resume  |</a>
+                  </li>
+               <!--Skills Section is an in-page link on index.html page-->
+                   <li class="nav-item">
+                        <a href="index.html#Skills">Skills</a>
+                   </li>          
+            </ul>
+        </div>
+    </nav>
+ 
+        
    <!-- social media section -->
     <div class="icon-bar">
         <a href="https://www.linkedin.com/in/jocelyn-shelton-b648b03"target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
-        <a href="https://twitter.com/j22shelton"target="_blank" class="twitter"><i class="fa fa-twitter"></i></a> 
+        <a href="https://twitter.com/j22shelton" class="twitter"><i class="fa fa-twitter"></i></a> 
         <a href="https://github.com/j22shelton"target="_blank" class="github"><i class="fa fa-github"></i></a> 
         <a href="mailto:shelton.jocelyn@gmail.com"target="_blank" class="e-mail"><i class="fa fa-envelope" style="font-size:36px"></i></a>
     </div>
 
-</header>
+   </header>
+      <!-- Bio & pic section -->
+      <br>
 
-<!-- projects and descriptions -->
-  <div class="container">
+  <main class= "container-fluid">
 
+    <!-- Portfolio -->
 
-    <div class="table">
-       <table Cellpadding="10" Cellspacing="15">   
+    <section class="row">
+            <div class="col-md-10">
+               <article class="block">
+                 <div class= "image-portfolio"> 
+                    <a href="https://ph4044.github.io/Project1/"target="_blank"><img src="assets/images/Project3.png" alt="map" width="250"
+                    height="200"></a>
+                 </div>
+                 <a href="https://ph4044.github.io/Project1/"target="_blank"><p><h3>Retirement Calculator</h3></a><h6>This project consists of creative retirement solutions and uses API requests along with Firebase database. The user inputs specific details into the input fields, then clicks "submit". Then the Numbeo API pulls information pertaining to 10 specific cities and JQuery/Javascript code computes retirement results based on data points of Social Security/Pension, 401k/IRA retirement assets, and desired retirement Age compared to a life expectancy estimate of 80. The results indicates to the user the total amount of funds currently needed to retire in a specific location.</h6></p>
+               </article>
+            </div>
+        </section>
 
-        <tr><td><a href="https://ph4044.github.io/Project1/"target="_blank"><h3>Retirement Calculator</h3></a><h6>This project consists of creative retirement solutions and uses API requests along with Firebase database. The user inputs specific details into the input fields, then clicks "submit". Then the Numbeo API pulls information pertaining to 10 specific cities and JQuery/Javascript code computes retirement results based on data points of Social Security/Pension, 401k/IRA retirement assets, and desired retirement Age compared to a life expectancy estimate of 80. The results indicates to the user the total amount of funds currently needed to retire in a specific location.</h6></td> 
-          <td><a href="https://ph4044.github.io/Project1/"target="_blank"><img src="assets/images/Project3.png" class="borderImg"></a> </td> </tr>
+        <section class="row">
+                <div class="col-md-10">
+                   <article class="block">
+                     <div class= "image-portfolio"> 
+                        <a href="https://j22shelton.github.io/Train-Scheduler/"target="_blank"><img src="https://www.smartertravel.com/uploads/2017/06/switzerland-train-sized-down-1200x627.jpg" alt="map" width="250"
+                        height="200"></a>
+                     </div>
+                     <a href="https://j22shelton.github.io/Train-Scheduler/"target="_blank"><p><h3>Train Scheduler</h3></a><h6>This application incorporates Firebase to host arrival and departure data. It retrieves and manipulates this information with Moment.js. This website provides up-to-date information about various trains, including arrival times and how many minutes remain until they arrive at their station. In addition, users from many different machines are able to view same train times. Administrators can add trains with the following details:Train Name, Train Destination, First Train Time (in military time), Train Frequency (in minutes). Javascript, jQuery, HTML5, CSS3, Firebase, Moment.js</h6></p>
+                   </article>
+                </div>
+        </section>
+     
+        <section class="row">
+                 <div class="col-md-10">
+                     <article class="block">
+                        <div class= "image-portfolio"> 
+                         <a href="https://piespace12345.herokuapp.com/"target="_blank"><img src="assets/images/pie.jpg" alt="pie" width="250"
+                        height="200"></a>
+                         </div>
+                       <a href="https://piespace12345.herokuapp.com/"target="_blank"><p><h3>Pie Space!</h3></a><h6>Pie Space is a full stack app built using the MVC paradigm and Edamam API that allows a user to create an account, and search for recipes by typing the name of the recipe into the recipe search bar. The app also displays ingredients of each recipe that is clicked on. Additionally, users can input their own recipes by adding ingredients and saving this to a shopping list. It utilizes Node and Express Web Server, and is backed by MySQL Database and an ORM. This app also uses both GET and POST routes for retrieving and adding new data, and is deployed using Heroku (with Data). <br><br><i>*Please allow sufficient time for the page to load.*</i></h6></p>
+                   </article>
+                </div>
+        </section>
+
+        <section class="row">
+                <div class="col-md-10">
+                   <article class="block">
+                     <div class= "image-portfolio"> 
+                        <a href="https://j22shelton.github.io/unit-4-game/"target="_blank"><img src="http://images6.fanpop.com/image/photos/38600000/Gemstone-Photography-gemstones-38668610-1024-768.jpg" alt="crystals" width="250"
+                        height="225"></a>
+                     </div>
+                     <a href="https://j22shelton.github.io/unit-4-game/"target="_blank"><p><h3>Crystal Game</h3></a><h6>The computer picks a random number at the start of the game between 19-120. There are four crystals displayed, and each one is randomly assigned a value between 1 and 12, which varies for each game. The player can click on any of the four crystals an unlimited number of times, to add points to the player's total score. The player wins if their total score exactly matches the random number from the beginning of the game. The player loses if their score goes above the random number. The app uses HTML, CSS, and J-Query.</h6></p>
+                   </article>
+                </div>
+        </section>
+
+        <section class="row">
+                <div class="col-md-10">
+                   <article class="block">
+                     <div class= "image-portfolio"> 
+                        <a href="https://blooming-lake-71023.herokuapp.com/"target="_blank"><img src="https://images.pexels.com/photos/1005324/literature-book-open-pages-1005324.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="books" width="250"
+                        height="200"></a>
+                     </div>
+                     <a href="https://blooming-lake-71023.herokuapp.com/"target="_blank"><p><h3>Book Search</h3></a><h6>This assignment requires React components, works with helper functions, and utilize the React mounting lifecycle to query and display articles based on user searches. Also Node, Express and MongoDB are used so that users can save articles to read later. </h6></p>
+                   </article>
+                </div>
+        </section>
+
+        <section class="row">
+                <div class="col-md-10">
+                   <article class="block">
+                     <div class= "image-portfolio"> 
+                        <a href="https://protected-sea-80577.herokuapp.com/"target="_blank"><img src="https://www.whatsappprofiledpimages.com/wp-content/uploads/2018/07/funny-profile-pic80.jpg" alt="waldo" width="230"
+                        height="200"></a>
+                     </div>
+                     <a href="https://protected-sea-80577.herokuapp.com/"target="_blank"><p><h3>Retirement Calculator</h3></a><h6>riend finder is similar to a dating app. This full-stack site will take in results from your users' survey of 10 questions, then compare their answers with those from other users. The user responds to each question with a ranking of 1-5, from strongly disagree to strong agree. Then the app calculates the best match based on the absolute difference for all combined questions, and displays the name and picture of the user with the best overall match. It uses Express.js, node.js, HTML, CSS, Bootstrap, Javascript, and jQuery.</h6></p>
+                   </article>
+                </div>
+        </section>
+
+        <section class="row">
+                <div class="col-md-10">
+                   <article class="block">
+                     <div class= "image-portfolio"> 
+                        <a href="https://rocky-crag-98139.herokuapp.com/"target="_blank"><img src="https://media.gettyimages.com/photos/closeup-of-burger-picture-id763260055?s=612x612" alt="burger" width="250"
+                        height="200"></a>
+                     </div>
+                     <a href="https://rocky-crag-98139.herokuapp.com/"target="_blank"><p><h3>Eat-Da-Burger</h3></a><h6>TA restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the burger on the left side of the page- waiting to be devoured. Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page. The app will store every burger in a database, whether devoured or not.</h6></p>
+                   </article>
+                </div>
+        </section>
   
-        <tr><td><a href="https://j22shelton.github.io/Train-Scheduler/"target="_blank"><h3>Train Scheduler</h3></a><h6> This application incorporates Firebase to host arrival and departure data. It retrieves and manipulates this information with Moment.js. This website provides up-to-date information about various trains, including arrival times and how many minutes remain until they arrive at their station. In addition, users from many different machines are able to view same train times. Administrators can add trains with the following details:Train Name, Train Destination, First Train Time (in military time), Train Frequency (in minutes). Javascript, jQuery, HTML5, CSS3, Firebase, Moment.js</h6></td> 
-          <td><a href="https://j22shelton.github.io/Train-Scheduler/"target="_blank"><img src="https://www.smartertravel.com/uploads/2017/06/switzerland-train-sized-down-1200x627.jpg" class="borderImg"></a></td> </tr>
 
-        <tr><td><a href="https://piespace12345.herokuapp.com/"target="_blank"><h3>Pie Space!</h3></a><h6> Pie Space is a full stack app built using the MVC paradigm and Edamam API that allows a user to create an account, and search for recipes by typing the name of the recipe into the recipe search bar. The app also displays ingredients of each recipe that is clicked on. Additionally, users can input their own recipes by adding ingredients and saving this to a shopping list. It utilizes Node and Express Web Server, and is backed by MySQL Database and an ORM. This app also uses both GET and POST routes for retrieving and adding new data, and is deployed using Heroku (with Data). <br><br><i>*Please allow sufficient time for the page to load.*</i></h6></td> 
-          <td><a href="https://piespace12345.herokuapp.com/"target="_blank"><img src="assets/images/pie.jpg" class="borderImg"></a></td> </tr>
+        <section class="row">
+                <div class="col-md-10">
+                   <article class="block">
+                     <div class= "image-portfolio"> 
+                        <a href="https://j22shelton.github.io/Clicky-Game/"target="_blank"><img src="https://www.sallykirkman.com/wp-content/uploads/2017/03/tarot-2114403_1920.jpg" alt="Cards" width="250"
+                        height="200"></a>
+                     </div>
+                     <a href="https://j22shelton.github.io/Clicky-Game/"target="_blank"><p><h3>Clicky Game</h3></a><h6>This is a memory game built using React [Create React App]. The goal is to click all 12 cards only one time. If a card is clicked more than once, then the player loses and the score is reset to 0. The app keeps track of the user's score. Every time an image is clicked, the images rendered to the page shuffle themselves in a random order. Once the user's score is reset after an incorrect guess, the game restarts. This app uses React, ES6, Bootstrap, CSS</h6></p>
+                   </article>
+                </div>
+        </section>
 
-        <tr><td><a href="https://j22shelton.github.io/unit-4-game/"target="_blank"><h3>Crystal Collector Game</h3></a><h6>The computer picks a random number at the start of the game between 19-120. There are four crystals displayed, and each one is randomly assigned a value between 1 and 12, which varies for each game. The player can click on any of the four crystals an unlimited number of times, to add points to the player's total score. The player wins if their total score exactly matches the random number from the beginning of the game. The player loses if their score goes above the random number. The app uses HTML, CSS, and J-Query.</h6></td> 
-          <td><a href="https://j22shelton.github.io/unit-4-game/"target="_blank"><img src="http://images6.fanpop.com/image/photos/38600000/Gemstone-Photography-gemstones-38668610-1024-768.jpg" class="borderImg"> </a></td> </tr>
-
-        <tr><td><a href="https://blooming-lake-71023.herokuapp.com/"target="_blank"><h3>BooksSearch</h3></a><h6>This assignment requires React components, works with helper functions, and utilize the React mounting lifecycle to query and display articles based on user searches. Also Node, Express and MongoDB are used so that users can save articles to read later. </h6></td> 
-          <td><a href="https://blooming-lake-71023.herokuapp.com/"target="_blank"><img src="https://images.pexels.com/photos/1005324/literature-book-open-pages-1005324.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="borderImg"> </a></td> </tr>
-
-        <tr><td><a href="https://protected-sea-80577.herokuapp.com/"target="_blank"><h3>Friend Finder</h3></a><h6> Friend finder is similar to a dating app. This full-stack site will take in results from your users' survey of 10 questions, then compare their answers with those from other users. The user responds to each question with a ranking of 1-5, from strongly disagree to strong agree. Then the app calculates the best match based on the absolute difference for all combined questions, and displays the name and picture of the user with the best overall match. It uses Express.js, node.js, HTML, CSS, Bootstrap, Javascript, and jQuery.</h6></td> 
-          <td><a href="https://protected-sea-80577.herokuapp.com/"target="_blank"><img src="https://www.whatsappprofiledpimages.com/wp-content/uploads/2018/07/funny-profile-pic80.jpg" class="borderImg"></a></td> </tr>
-         
-        <tr><td><a href="https://rocky-crag-98139.herokuapp.com/"target="_blank"><h3>Eat-Da-Burger</h3></a><h6>A restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page. The app will store every burger in a database, whether devoured or not.
-           The app uses MySQL, Node, Express, Handlebars and ORM. It is deployed through Heroku.</h6></td> 
-          <td><a href="https://rocky-crag-98139.herokuapp.com/"target="_blank"><img src="https://media.gettyimages.com/photos/closeup-of-burger-picture-id763260055?s=612x612" class="borderImg"></a></td> </tr>
-          
-        <tr><td><a href="https://j22shelton.github.io/Clicky-Game/"target="_blank"><h3>Clicky Game</h3></a><h6>This is a memory game built using React [Create React App]. The goal is to click all 12 cards only one time. If a card is clicked more than once, then the player loses and the score is reset to 0. The app keeps track of the user's score. Every time an image is clicked, the images rendered to the page shuffle themselves in a random order. Once the user's score is reset after an incorrect guess, the game restarts. This app uses React, ES6, Bootstrap, CSS</h6></td> 
-          <td><a href="https://j22shelton.github.io/Clicky-Game/"target="_blank"><img src="https://www.sallykirkman.com/wp-content/uploads/2017/03/tarot-2114403_1920.jpg" class="borderImg"> </a></td> </tr>
-        
-       </table>
-
-   </div>
-  
-  </div>
-
+    </main>
+    
          <!-- skills section -->
         <h1 id="Skills">Skills</h1>
          <div id="skills">
