@@ -131,7 +131,14 @@ h3 {
   color: #ebe9f0;
   text-shadow: 2px 2px #070606;
 }
-
+button {
+  color: white;
+  padding: 8px;
+  margin: 7px 300px 7px 300px;
+  border-style: outset;
+  border-radius: 17px;
+  background-color: rgb(27, 25, 25);
+}
 h5,
 h6 {
   font-size: 40px;
