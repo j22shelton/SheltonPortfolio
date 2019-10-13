@@ -101,6 +101,17 @@ color: white;
   float: left;
 } */
 
+.wrapper {
+  height: auto !important;
+  height: 100%;
+
+  /* Box-model */
+  min-height: 100%;
+
+  /* Positioning */
+  margin: 0 auto -100px;
+}
+
 .image-portfolio {
   border: 4px solid black;
   border-radius: 10px;
