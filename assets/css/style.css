@@ -29,6 +29,15 @@ nav {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
+.nav-item {
+  transition: transform .1s ease-out;
+}
+
+.nav-item:hover {
+  transform: scale(1.1);
+}
+
 /********Style for social media icons*********/
 
 .icon-bar {
@@ -120,6 +129,11 @@ h3 {
 .btn.btn-dark {
   border-style: outset;
   border-radius: 17px; 
+  transition: transform .2s ease-out;
+}
+
+.btn.btn-dark:hover {
+  transform: scale(1.05);
 }
 
 h5,
@@ -136,6 +150,14 @@ body {
   background: url("https://images.unsplash.com/photo-1530177150700-84cd9a3b059b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.image-portfolio {
+  transition: transform .2s ease-out;
+}
+
+.image-portfolio:hover {
+  transform: scale(1.05);
 }
 
 /*********Style for "About Me" page***********/
@@ -168,7 +190,6 @@ body {
 
  /**********Style for "Skills" section*********/
 
-
 .skills-icon {
   margin: 0px 25px 75px 75px;
 }
@@ -177,6 +198,11 @@ body {
   padding: 12px;
   width: 175px;
   height:175px;
+  transition: transform .3s ease-out;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
 }
 
  /**********Style for footer*************/
